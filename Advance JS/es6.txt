@@ -1,0 +1,40 @@
+ECMAScript 2015 is also known as ES6 and ECMAScript 6. This chapter describes the most important features of ES6.
+
+Topics:-
+
+1. var, let, const 
+2. hoisting 
+3. Template Literals 
+4. ternary operators 
+5. Short Circuits 
+6. Spread Operators & Rest operators 
+7. Destructuring of Array 
+8. Destructuring of Object 
+9. Pass By value and Pass By Reference 
+10. Object Methods 
+a) Keys 
+b) Values 
+c) Freeze 
+d) Entries
+ 
+11. ========================= Functions =========================== 
+
+a) Arrow function 
+b) Higher order function 
+c) default perimeter 
+
+12. ====================== Array Methods ======================== 
+
+a) Map() 
+b) Filter() 
+c) ForEach() 
+d) Find() 
+e) Reduce() 
+f) findIndex() 
+ 
+13. new promise() 
+14. async await 
+15. Fetch() 
+a) News App 
+b) Weather App 
+c) Github User Finder App
