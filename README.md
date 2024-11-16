@@ -13,8 +13,9 @@
 a) Keys 
 b) Values 
 c) Freeze 
-d) Entries 
-11. ========================= Functions ===========================
+d) Entries
+
+12. ========================= Functions ===========================
      
 a) Arrow function 
 b) Higher order function 
