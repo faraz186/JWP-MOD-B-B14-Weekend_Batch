@@ -1,5 +1,6 @@
 // Template literals
 
+
 let userName = prompt("Enter your name");
 
 let userCity = prompt("Enter your city");
