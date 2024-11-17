@@ -6,7 +6,8 @@ let userCity = prompt("Enter your city");
 
 console.log(`Hello my name is ${userName}. I lived in ${userCity}`);
 
-// multiplication Table
+
+// multiplication Table  
 
 // let userInput = +prompt("Enter any number");
 
