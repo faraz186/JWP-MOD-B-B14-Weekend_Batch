@@ -63,22 +63,13 @@ if (age === 25) {
 
 // percentage grade
 
-// let percentage = +prompt("Ente your percentage");
+let percentage = +prompt("Ente your percentage");
 
-// let check =
-//   percentage >= 33 && percentage <= 50
-//     ? "E Grade"
-//     : percentage >= 51 && percentage <= 60
-//     ? "D Grade"
-//     : percentage >= 61 && percentage <= 70
-//     ? "C Grade"
-//     : percentage >= 71 && percentage <= 80
-//     ? "A Grade"
-//     : percentage >= 81 && percentage <= 100
-//     ? "A+ Grade"
-//     : "invalid percentage";
+let check = percentage >= 33 && percentage <= 50 ? "E Grade" : percentage >= 51 && percentage <= 60 ? "D Grade" : percentage >= 61 && percentage <= 70
+    
+  ? "C Grade" : percentage >= 71 && percentage <= 80 ? "A Grade" : percentage >= 81 && percentage <= 100 ? "A+ Grade" : "invalid percentage";
 
-// console.log(check);
+console.log(check);
 
 // if (percentage >= 33 && percentage <= 50) {
 //   console.log("E Grade");
