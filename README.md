@@ -1,6 +1,6 @@
 <h1>Topics</h1>
 
-1. Advance JS
+<h3><b>Advance JS</b></h3>
    
 1. var, let, const 
 2. hoisting 
