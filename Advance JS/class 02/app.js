@@ -19,13 +19,13 @@ for (let i = 1; i <= userRange; i++) {
 
 // ES5
 
-// let age = "20";
+let age = "20";
 
-// if (age === 20) {
-//   console.log("ALLOW");
-// } else {
-//   console.log("NOT ALLOW");
-// }
+if (age === 20) {
+  console.log("ALLOW");
+} else {
+  console.log("NOT ALLOW");
+}
 
 // TERNARY Operator
 
