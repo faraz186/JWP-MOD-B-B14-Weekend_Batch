@@ -15,8 +15,9 @@ let userRange = +prompt("Enter range");
 
 for (let i = 1; i <= userRange; i++) {
   document.write(`${userInput} x ${i} = ${userInput * i} <br>`);
-// }
+}
 
+  
 // ES5
 
 let age = "20";
@@ -31,11 +32,11 @@ if (age === 20) {
 
 // ES6
 
-// let Age = 20;
+let Age = 20;
 
-// let check = Age === 20 ? "ALLOW" : "NOT ALLOW";
+let check = Age === 20 ? "ALLOW" : "NOT ALLOW";
 
-// console.log(check);
+console.log(check);
 
 // let age = 25;
 
