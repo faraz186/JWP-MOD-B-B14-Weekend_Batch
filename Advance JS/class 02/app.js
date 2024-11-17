@@ -1,10 +1,10 @@
-// template literals
+// Template literals
 
-// let userName = prompt("Enter your name");
+let userName = prompt("Enter your name");
 
-// let userCity = prompt("Enter your city");
+let userCity = prompt("Enter your city");
 
-// console.log(`Hello my name is ${userName}. I lived in ${userCity}`);
+console.log(`Hello my name is ${userName}. I lived in ${userCity}`);
 
 // multiplication Table
 
