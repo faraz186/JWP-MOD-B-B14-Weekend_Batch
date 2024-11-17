@@ -2,12 +2,12 @@
 
 // diff b/w =====> var let & const
 
-// let firstName = "faraz";
+let firstName = "faraz";
 
-// {
-//   let firstName = "Muhammad";
-//   console.log(firstName);
-// }
+{
+  let firstName = "Muhammad";
+  console.log(firstName);
+}
 
 // console.log(firstName);
 
