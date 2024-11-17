@@ -46,11 +46,7 @@ let gender = "male";
 
 let check1 = age === 25 && gender === "male" ? "allow" : "not allow";
 
-let check2 = age === 25 ? gender === "male" ? "allow"
-
-      : "gender not match"
-
-    : "age not match";
+let check2 = age === 25 ? gender === "male" ? "allow" : "gender not match" : "age not match";
 
 console.log(check2);
 
