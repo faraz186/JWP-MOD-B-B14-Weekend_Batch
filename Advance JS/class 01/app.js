@@ -37,12 +37,12 @@ const firstName = "faraz";
 console.log(firstName);
 
 
-// function num() {
-//   const nums = 10;
-//   console.log(nums);
-// }
+function num() {
+  const nums = 10;
+  console.log(nums);
+}
 
-// num();
+num();
 
 // const num = 50;
 
