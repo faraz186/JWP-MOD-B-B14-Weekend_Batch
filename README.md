@@ -63,8 +63,9 @@ b) Weather App (Assignment)
 19. React Redux / Redux Toolkit@latest 
 a) Counter App 
 b) Login SignUp 
-d) Add to cart functionality 
-20. Boiler Plate:- 
+d) Add to cart functionality
+
+21. <b>Boiler Plate:-<b> 
 a) Navigation 
 b) screens 
 c) login 
@@ -82,9 +83,9 @@ n) form grid
 o) modal 
 p) show message
  
-23. Mini Hackathon
+23. <h3>Mini Hackathon</h3>
      
-3. React Native
+<h3>React Native</h3>
     
 25. React Native Installation 
 26. UI 
@@ -107,7 +108,7 @@ p) show message
 47. Release APK
 
      
-4. Back end
+<h3> Back end</h3>
     
 48. Node JS (Core) 
 49. Express JS 50. Server 
@@ -121,8 +122,7 @@ p) show message
 58. bycrptJS for password hashing 
 59. Backend Deployment
 
-     
-5. TypeScript
+<h3> TypeScript</h3>
    
 61. type casting 
 62. Type annotation 
@@ -133,7 +133,7 @@ p) show message
 67. Enums
 
     
-6. Next JS
+<h3> Next JS</h3>
    
 68. Layout of Nextjs
 69. client-side vs server-side rendering 
