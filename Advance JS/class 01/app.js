@@ -2,6 +2,20 @@
 
 // diff b/w =====> var let & const
 
+// var
+
+var firstName = "faraz";
+
+{
+  var firstName = "Muhammad";
+  console.log(firstName);
+}
+
+console.log(firstName);
+
+
+// let
+
 let firstName = "faraz";
 
 {
@@ -9,7 +23,19 @@ let firstName = "faraz";
   console.log(firstName);
 }
 
-// console.log(firstName);
+console.log(firstName);
+
+// const
+
+const firstName = "faraz";
+
+{
+  const firstName = "Muhammad";
+  console.log(firstName);
+}
+
+console.log(firstName);
+
 
 // function num() {
 //   const nums = 10;
