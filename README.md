@@ -39,7 +39,7 @@ a) News App
 b) Weather App 
 c) Github User Finder App
  
-2. React JS
+<h3> React JS</h3>
    
 17. React JS 
 a) Class Components vs Functional Components 
