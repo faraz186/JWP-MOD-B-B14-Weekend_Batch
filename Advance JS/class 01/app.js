@@ -44,11 +44,11 @@ function num() {
 
 num();
 
-// const num = 50;
+const num = 50;
 
-// num = 100;
+num = 100;
 
-// console.log(num);
+console.log(num);
 
 const obj = {
   name: "faraz",
