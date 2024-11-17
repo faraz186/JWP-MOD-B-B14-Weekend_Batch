@@ -38,19 +38,21 @@ let check = Age === 20 ? "ALLOW" : "NOT ALLOW";
 
 console.log(check);
 
-// let age = 25;
 
-// let gender = "male";
 
-// let check1 = age === 25 && gender === "male" ? "allow" : "not allow";
+let age = 25;
 
-// let check2 = age === 25 ? gender === "male" ? "allow"
+let gender = "male";
 
-//       : "gender not match"
+let check1 = age === 25 && gender === "male" ? "allow" : "not allow";
 
-//     : "age not match";
+let check2 = age === 25 ? gender === "male" ? "allow"
 
-// console.log(check2);
+      : "gender not match"
+
+    : "age not match";
+
+console.log(check2);
 
 // if (age === 25) {
 //   if (gender === "male") {
