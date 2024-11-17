@@ -6,7 +6,7 @@
 
 var firstName = "faraz";
 
-{
+{  
   var firstName = "Muhammad";
   console.log(firstName);
 }
