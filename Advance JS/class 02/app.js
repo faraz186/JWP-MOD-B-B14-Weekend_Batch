@@ -9,12 +9,12 @@ console.log(`Hello my name is ${userName}. I lived in ${userCity}`);
 
 // multiplication Table  
 
-// let userInput = +prompt("Enter any number");
+let userInput = +prompt("Enter any number");
 
-// let userRange = +prompt("Enter range");
+let userRange = +prompt("Enter range");
 
-// for (let i = 1; i <= userRange; i++) {
-//   document.write(`${userInput} x ${i} = ${userInput * i} <br>`);
+for (let i = 1; i <= userRange; i++) {
+  document.write(`${userInput} x ${i} = ${userInput * i} <br>`);
 // }
 
 // ES5
