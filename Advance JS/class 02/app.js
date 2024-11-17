@@ -50,15 +50,16 @@ let check2 = age === 25 ? gender === "male" ? "allow" : "gender not match" : "ag
 
 console.log(check2);
 
-// if (age === 25) {
-//   if (gender === "male") {
-//     console.log("allow");
-//   } else {
-//     console.log("gender not match");
-//   }
-// } else {
-//   console.log("age not match ");
-// }
+
+if (age === 25) {
+  if (gender === "male") {
+    console.log("allow");
+  } else {
+    console.log("gender not match");
+  }
+} else {
+  console.log("age not match ");
+}
 
 // percentage grade
 
