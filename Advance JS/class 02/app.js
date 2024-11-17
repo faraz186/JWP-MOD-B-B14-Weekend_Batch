@@ -71,30 +71,27 @@ let check = percentage >= 33 && percentage <= 50 ? "E Grade" : percentage >= 51 
 
 console.log(check);
 
-// if (percentage >= 33 && percentage <= 50) {
-//   console.log("E Grade");
-// } else if (percentage >= 51 && percentage <= 60) {
-//   console.log("D Grade");
-// } else if (percentage >= 61 && percentage <= 70) {
-//   console.log("C Grade");
-// } else if (percentage >= 71 && percentage <= 80) {
-//   console.log("A Grade");
-// } else if (percentage >= 81 && percentage <= 100) {
-//   console.log("A+ Grade");
-// } else {
-//   console.log("invalid percentage");
-// }
 
 // Object Method
 
-// let obj = {
-//   name: "abc",
-//   age: 20,
-//   city: "karachi",
-//   email: "abc@gmail.com",
-// };
+let obj = {
+  name: "abc",
+  age: 20,
+  city: "karachi",
+  email: "abc@gmail.com",
+};
 
-// console.log(Object.entries(obj));
+console.log(Object.keys(obj)); // obj keys in array
+
+console.log(Object.values(obj)); // obj values in array
+
+console.log(Object.freeze(obj)); // obj value
+
+console.log(Object.entries(obj)); // obj keys, values in an array
+
+
+
+// nested Obj filtering data
 
 var mobiles = {
   iphone: {
@@ -726,42 +723,3 @@ var mobiles = {
     },
   },
 };
-
-let brand = document.getElementById("brand");
-let model = document.getElementById("model");
-
-var brandsKeys = Object.keys(mobiles);
-
-for (var i = 0; i < brandsKeys.length; i++) {
-  brand.innerHTML += `<option>${brandsKeys[i]}</option>`;
-  // console.log(brandsKeys[i])
-}
-
-function selectBrand() {
-  let selectBrand = brand.value;
-  let allModels = Object.keys(mobiles[selectBrand]);
-
-  for (var i = 0; i < allModels.length; i++) {
-    model.innerHTML += `<option>${allModels[i]}</option>`;
-  }
-
-  console.log("allModels==>", allModels);
-}
-
-function sechBtn() {
-  let Card = document.getElementById("cardPortion");
-
-  var filterObj = mobiles[brand.value][model.value];
-
-  console.log(mobiles[brand.value][model.value]);
-
-  Card.innerHTML = `<div class="card" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">${filterObj.brand}</h5>
-    <h6 class="card-subtitle mb-2 text-body-secondary">${filterObj.operatingSystem}</h6>
-    <p class="card-text">Processor: ${filterObj.processor}</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
-  </div>
-</div>`;
-}
