@@ -3,7 +3,7 @@ let mobiles = {
     iphone7: {    
       processor: "Snapdragon 8 Gen 2",  
       memory: {      
-        ram: 12,
+        ram: 12,  
         storage: 512,    
       },  
       camera: {  
