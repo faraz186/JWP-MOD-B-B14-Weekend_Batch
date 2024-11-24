@@ -29,7 +29,7 @@ let mobiles = {
       brand: "iphone",
       camera: {
         rear: {
-          main: 180,
+          main: 180,  
           ultrawide: 15,
           telephoto: 10,
           telephotoPeriscope: 20,
