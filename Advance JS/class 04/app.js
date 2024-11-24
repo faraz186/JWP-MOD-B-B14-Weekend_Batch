@@ -12,7 +12,7 @@ let mobiles = {
           ultrawide: 12,    
           telephoto: 10,
           telephotoPeriscope: 10,
-        },
+        },  
         front: 10,
       },
       brand: "iphone",  
