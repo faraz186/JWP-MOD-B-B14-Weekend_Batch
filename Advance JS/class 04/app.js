@@ -8,7 +8,7 @@ let mobiles = {
       },
       camera: {
         rear: {
-          main: 200,
+          main: 200,  
           ultrawide: 12,    
           telephoto: 10,
           telephotoPeriscope: 10,
