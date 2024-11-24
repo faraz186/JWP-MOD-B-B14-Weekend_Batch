@@ -5,7 +5,7 @@ let mobiles = {
       memory: {    
         ram: 12,
         storage: 512,
-      },
+      },  
       camera: {
         rear: {  
           main: 200,  
