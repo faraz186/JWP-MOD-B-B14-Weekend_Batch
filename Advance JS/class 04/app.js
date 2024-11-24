@@ -1,7 +1,7 @@
 let mobiles = {
   iphone: {  
     iphone7: {
-      processor: "Snapdragon 8 Gen 2",
+      processor: "Snapdragon 8 Gen 2",  
       memory: {  
         ram: 12,
         storage: 512,
