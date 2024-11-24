@@ -1,4 +1,4 @@
-let mobiles = {     
+let mobiles = {       
   iphone: {    
     iphone7: {    
       processor: "Snapdragon 8 Gen 2",  
