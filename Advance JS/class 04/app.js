@@ -7,7 +7,7 @@ let mobiles = {
         storage: 512,
       },
       camera: {
-        rear: {
+        rear: {  
           main: 200,  
           ultrawide: 12,    
           telephoto: 10,
