@@ -13,7 +13,7 @@ let mobiles = {
           telephoto: 10,  
           telephotoPeriscope: 10,    
         },  
-        front: 10,
+        front: 10,  
       },
       brand: "iphone",  
       battery: 5000,
