@@ -4,7 +4,7 @@ let mobiles = {
       processor: "Snapdragon 8 Gen 2",  
       memory: {    
         ram: 12,
-        storage: 512,  
+        storage: 512,    
       },  
       camera: {  
         rear: {  
