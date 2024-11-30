@@ -15,7 +15,7 @@ let abc = function () {
 
 greet();  
 
-let greet = () => {
+let greet = () => {   
   console.log("arrow function call...");
 };
 
