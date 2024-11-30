@@ -34,7 +34,7 @@ let outer = (num1) => {
     return function (num3) {
       console.log(num1 + num2 + num3);
     };
-  };
+  };  
 };
 
 outer(10)(20)(30);
