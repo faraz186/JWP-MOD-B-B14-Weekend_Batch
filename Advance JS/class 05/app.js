@@ -16,7 +16,7 @@ let abc = function () {
 greet();    
 
 let greet = () => {   
-  console.log("arrow function call...");
+  console.log("arrow function call...");  
 };
 
 let sum = (a, b) => {
