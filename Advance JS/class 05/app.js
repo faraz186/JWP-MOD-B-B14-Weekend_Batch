@@ -15,7 +15,7 @@ let abc = function () {
 // Arrow Function / fat arror function
 
 greet();    
-
+  
 let greet = () => {   
   console.log("arrow function call...");  
 };
