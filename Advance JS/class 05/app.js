@@ -68,7 +68,7 @@ console.log(element);
 let arr = [{ num: 30 }, { num: 30 }, { num: 50 }, { num: 30 }, { num: 30 }];
 
 let Arr = arr.some((e, i) => {
-  return e.num === 30;
+  return e.num === 30;  
 });
 
 console.log(Arr);
