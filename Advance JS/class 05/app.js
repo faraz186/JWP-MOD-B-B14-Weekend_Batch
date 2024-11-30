@@ -8,7 +8,7 @@ function abc() {
 abc();
 
 let abc = function () {
-  console.log("function calling..");
+  console.log("function calling..");  
 };
 
 // Arrow Function / fat arror function
