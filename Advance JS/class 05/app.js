@@ -30,7 +30,7 @@ console.log(sum(10, 30));
 // High Order Function
 
 let outer = (num1) => {
-  return function (num2) {
+  return function (num2) {  
     return function (num3) {
       console.log(num1 + num2 + num3);
     };
