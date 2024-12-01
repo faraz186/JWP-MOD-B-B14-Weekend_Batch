@@ -16,16 +16,16 @@ console.log("start Three");
 // 2) fulfilled / resolve
 // 3) reject
 
-// let pro = new Promise((resolve, reject) => {
-//   let iceCream = true;
-//   if (iceCream === true) {
-//     resolve("promise resolve");
-//   } else {
-//     reject("promise reject");
-//   }
-// });
+let pro = new Promise((resolve, reject) => {
+  let iceCream = true;
+  if (iceCream === true) {
+    resolve("promise resolve");
+  } else {
+    reject("promise reject");
+  }
+});
 
-// console.log(pro);
+console.log(pro);
 
 // pro
 //   .then((data) => {
