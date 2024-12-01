@@ -4,7 +4,7 @@ setTimeout(() => {
   console.log("start Two");  
 }, 2000);
   
-console.log("start Three");
+console.log("start Three");  
 
 // Sync or Async
 
