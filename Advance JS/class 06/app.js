@@ -1,8 +1,8 @@
-// console.log("start One");
+console.log("start One");
 
-// setTimeout(() => {
-//   console.log("start Two");
-// }, 2000);
+setTimeout(() => {
+  console.log("start Two");
+}, 2000);
 
 // console.log("start Three");
 
