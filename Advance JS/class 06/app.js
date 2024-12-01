@@ -64,7 +64,7 @@ pro.then((data) => {
     }
   })
   .catch((err) => {
-    for (var i = 1; i <= tableRange; i++) {
+    for (var i = 1; i <= 10; i++) {
       document.write(`${err} x ${i} = ${err * i} <br>`);
     }
   });
