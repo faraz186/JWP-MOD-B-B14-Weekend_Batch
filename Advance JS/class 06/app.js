@@ -65,7 +65,7 @@ pro.then((data) => {
   })
   .catch((err) => {
     for (var i = 1; i <= 10; i++) {
-      document.write(`${err} x ${i} = ${err * i} <br>`);
+      document.write(`${err} x ${i} = ${err * i} <br>`);  
     }
   });
 
