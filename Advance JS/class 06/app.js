@@ -33,7 +33,7 @@ console.log(pro);
 //   })
 //   .catch((err) => {
 //     console.log(err);
-//   });
+  });
 
 // Multiplication Table
 
