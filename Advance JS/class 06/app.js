@@ -80,7 +80,7 @@ let fetchData = new Promise((res, rej) => {
       res(data);
     })
     .catch((err) => {
-      rej(err);
+      rej(err);  
     });
 });
 
