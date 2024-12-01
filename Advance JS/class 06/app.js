@@ -19,7 +19,7 @@ console.log("start Three");
 let pro = new Promise((resolve, reject) => {  
   let iceCream = true;
   if (iceCream === true) {  
-    resolve("promise resolve");
+    resolve("promise resolve");  
   } else {
     reject("promise reject");
   }
