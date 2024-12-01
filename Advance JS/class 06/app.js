@@ -27,12 +27,12 @@ let pro = new Promise((resolve, reject) => {
 
 console.log(pro);
 
-// pro
-//   .then((data) => {
-//     console.log(data);
-//   })
-//   .catch((err) => {
-//     console.log(err);
+pro
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((err) => {
+    console.log(err);
   });
 
 // Multiplication Table
