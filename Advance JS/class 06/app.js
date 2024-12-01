@@ -69,7 +69,9 @@ pro.then((data) => {
     }
   });
 
-// API
+
+// API (Application Programming Interface)
+
 
 let fetchData = new Promise((res, rej) => {
   fetch("https://jsonplaceholder.typicode.com/posts")
