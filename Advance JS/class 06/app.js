@@ -27,20 +27,25 @@ let pro = new Promise((resolve, reject) => {
 
 console.log(pro);
 
-pro
-  .then((data) => {
+pro.then((data) => {
     console.log(data);
   })
   .catch((err) => {
     console.log(err);
   });
 
-// Multiplication Table
+
+
+// Multiplication Table Task
+
+
+
 
 let tableInput = +prompt("Enter a number to generate table");
 let tableRange = +prompt("Enter range");
 
 let defaultNum = 5;
+
 
 let pro = new Promise((res, rej) => {
   if (tableInput) {
@@ -50,8 +55,9 @@ let pro = new Promise((res, rej) => {
   }
 });
 
-pro
-  .then((data) => {
+
+
+pro.then((data) => {
     for (var i = 1; i <= tableRange; i++) {
       document.write(`${data} x ${i} = ${data * i} <br>`);
     }
