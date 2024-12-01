@@ -85,9 +85,9 @@ let fetchData = new Promise((res, rej) => {
       rej(err);  
     });
 });
-  
-fetchData
-  .then((data) => {
+
+
+fetchData.then((data) => {
     console.log(data);
   })
   .catch((err) => {
