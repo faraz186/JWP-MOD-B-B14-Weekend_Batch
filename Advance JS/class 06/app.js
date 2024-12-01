@@ -16,7 +16,7 @@ console.log("start Three");
 // 2) fulfilled / resolve
 // 3) reject
 
-let pro = new Promise((resolve, reject) => {
+let pro = new Promise((resolve, reject) => {  
   let iceCream = true;
   if (iceCream === true) {
     resolve("promise resolve");
