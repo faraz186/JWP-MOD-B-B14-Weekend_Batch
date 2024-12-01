@@ -37,30 +37,30 @@ pro
 
 // Multiplication Table
 
-// let tableInput = +prompt("Enter a number to generate table");
-// let tableRange = +prompt("Enter range");
+let tableInput = +prompt("Enter a number to generate table");
+let tableRange = +prompt("Enter range");
 
-// let defaultNum = 5;
+let defaultNum = 5;
 
-// let pro = new Promise((res, rej) => {
-//   if (tableInput) {
-//     res(tableInput);
-//   } else {
-//     rej(defaultNum);
-//   }
-// });
+let pro = new Promise((res, rej) => {
+  if (tableInput) {
+    res(tableInput);
+  } else {
+    rej(defaultNum);
+  }
+});
 
-// pro
-//   .then((data) => {
-//     for (var i = 1; i <= tableRange; i++) {
-//       document.write(`${data} x ${i} = ${data * i} <br>`);
-//     }
-//   })
-//   .catch((err) => {
-//     for (var i = 1; i <= tableRange; i++) {
-//       document.write(`${err} x ${i} = ${err * i} <br>`);
-//     }
-//   });
+pro
+  .then((data) => {
+    for (var i = 1; i <= tableRange; i++) {
+      document.write(`${data} x ${i} = ${data * i} <br>`);
+    }
+  })
+  .catch((err) => {
+    for (var i = 1; i <= tableRange; i++) {
+      document.write(`${err} x ${i} = ${err * i} <br>`);
+    }
+  });
 
 // API
 
