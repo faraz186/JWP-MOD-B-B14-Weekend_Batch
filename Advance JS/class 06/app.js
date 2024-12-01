@@ -73,6 +73,25 @@ pro.then((data) => {
 // API (Application Programming Interface)
 
 
+
+// fetch() method
+
+
+fetch("https://jsonplaceholder.typicode.com/posts")
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      res(data);
+    })
+    .catch((err) => {
+      rej(err);  
+    });
+
+
+// API CALL USING PROMISES
+
+
 let fetchData = new Promise((res, rej) => {
   fetch("https://jsonplaceholder.typicode.com/posts")
     .then((response) => {
