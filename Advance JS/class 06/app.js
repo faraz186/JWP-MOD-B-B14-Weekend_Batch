@@ -11,9 +11,10 @@ console.log("start Three");
 
 // promise
 
+// async await
+
 
 // there are 3 stages in promise.  
-  
 
 // 1) pending
 // 2) fulfilled / resolve
