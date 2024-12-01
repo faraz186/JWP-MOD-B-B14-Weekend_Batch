@@ -42,8 +42,6 @@ pro.then((data) => {
 // Multiplication Table Task
 
 
-
-
 let tableInput = +prompt("Enter a number to generate table");
 let tableRange = +prompt("Enter range");
 
