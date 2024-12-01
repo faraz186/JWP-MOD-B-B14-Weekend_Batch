@@ -6,15 +6,19 @@ setTimeout(() => {
   
 console.log("start Three");  
 
+
 // Sync or Async
 
 // promise
 
+
 // there are 3 stages in promise.  
+
 
 // 1) pending
 // 2) fulfilled / resolve
 // 3) reject
+
 
 let pro = new Promise((resolve, reject) => {  
   let iceCream = true;
@@ -33,7 +37,6 @@ pro.then((data) => {
   .catch((err) => {
     console.log(err);
   });
-
 
 
 // Multiplication Table Task
