@@ -13,7 +13,7 @@ console.log("start Three");
 
 
 // there are 3 stages in promise.  
-
+  
 
 // 1) pending
 // 2) fulfilled / resolve
