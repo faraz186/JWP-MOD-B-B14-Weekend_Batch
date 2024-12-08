@@ -3,7 +3,7 @@ const inputdata = document.getElementById("inputField");
 const showWeather = document.getElementById("showWeather");
 
 const searchData = async () => {
-  showWeather.innerHTML = `<div class="spinner-border text-primary" role="status">
+  showWeather.innerHTML = `<div class="spinner-border text-primary" role="status">  
   <span class="visually-hidden">Loading...</span></div>`;  
 
   const API_URL = `https://api.openweathermap.org/data/2.5/weather?q=${inputdata.value}&appid=${API_KEY}&units=metric`;
