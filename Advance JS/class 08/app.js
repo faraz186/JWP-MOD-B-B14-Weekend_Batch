@@ -17,7 +17,7 @@ const searchData = async () => {
 };  
 
 const showData = (data) => {
-  if (data.cod == "404") {
+  if (data.cod == "404") {  
     showWeather.innerHTML = `<h1>${data.message}</h1>`;
     return;
   } else {
