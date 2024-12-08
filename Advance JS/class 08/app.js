@@ -20,7 +20,7 @@ const showData = (data) => {
   if (data.cod == "404") {  
     showWeather.innerHTML = `<h1>${data.message}</h1>`;
     return;
-  } else {
+  } else {  
     showWeather.innerHTML = `  
       <img width="80" src=${`https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`} alt="">
       <h1>${data.main.temp} C</h1>
