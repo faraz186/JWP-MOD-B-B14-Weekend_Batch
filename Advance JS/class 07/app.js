@@ -70,7 +70,7 @@ console.log(schol);
 // import,  export
 
 
-const greet = () => {
+const greet = () => {  
   return "Muhammad Faraz";
 };
 
