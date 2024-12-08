@@ -14,7 +14,7 @@ const searchData = async () => {
   console.log(response);
 
   return showData(response);
-};
+};  
 
 const showData = (data) => {
   if (data.cod == "404") {
