@@ -21,7 +21,7 @@ const showData = (data) => {
     showWeather.innerHTML = `<h1>${data.message}</h1>`;
     return;
   } else {
-    showWeather.innerHTML = `
+    showWeather.innerHTML = `  
       <img width="80" src=${`https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`} alt="">
       <h1>${data.main.temp} C</h1>
       <h3>${data.weather[0].main}</h3>
