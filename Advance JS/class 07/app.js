@@ -4,7 +4,7 @@
 function Student(name, age, city) {
   this.stdName = name;
   this.stdAge = age;
-  this.stdCity = city;
+  this.stdCity = city;  
   this.getName = function () {
     return this.stdName;
   };
