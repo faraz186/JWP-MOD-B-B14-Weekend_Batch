@@ -92,7 +92,7 @@ export { greet, stdObj };
 
 const cardDiv = document.getElementById("cardSection");
 const input = document.getElementById("inputField");
-
+  
 let search = () => {
   const API_KEY = `https://newsapi.org/v2/everything?q=${input.value}&from=2024-11-07&sortBy=publishedAt&apiKey=d0ab0d9c70444ce0a82b32ff8ef54bbe`;
   fetch(API_KEY)
