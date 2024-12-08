@@ -10,7 +10,7 @@ const searchData = async () => {
 
   const fetchData = await fetch(API_URL);
   const response = await fetchData.json();   
-
+  
   console.log(response);
 
   return showData(response);
