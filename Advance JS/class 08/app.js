@@ -9,7 +9,7 @@ const searchData = async () => {
   const API_URL = `https://api.openweathermap.org/data/2.5/weather?q=${inputdata.value}&appid=${API_KEY}&units=metric`;
 
   const fetchData = await fetch(API_URL);
-  const response = await fetchData.json();   
+  const response = await fetchData.json();     
   
   console.log(response);
 
