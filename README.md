@@ -12,7 +12,7 @@
 1. var, let, const 
 2. hoisting 
 3. Template Literals 
-4. ternary operators 
+4. ternary operators   
 5. Short Circuits 
 6. Spread Operators & Rest operators 
 7. Destructuring of Array 
