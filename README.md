@@ -1,12 +1,11 @@
-<h2>Weather App</h1>
+<center>
+   
+<h1>Weather App</h1>
+<img src="https://github.com/user-attachments/assets/733c7fe3-d1d3-4bf0-9c2c-244b0268b384" width="550"/>
 
-<img src="https://github.com/user-attachments/assets/733c7fe3-d1d3-4bf0-9c2c-244b0268b384" width="700"/>
-
-<!--
-![img weatherapp](https://github.com/user-attachments/assets/733c7fe3-d1d3-4bf0-9c2c-244b0268b384) -->
+</center>
 
 <h1>Topics</h1>
-
 
 <h3><b>Advance JS</b></h3>
    
