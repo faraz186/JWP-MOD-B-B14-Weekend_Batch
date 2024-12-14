@@ -14,6 +14,6 @@ ReactDom.createRoot(rootDiv).render(
       nisi, quis id error animi deleniti beatae unde. Quas enim officiis optio,
       similique
     </p>
-    <img src="/public/vite.svg" alt=""></img>
+    <img src="/public/vite.svg" alt="" />
   </div>  
 );
