@@ -4,7 +4,7 @@ import ReactDom from "react-dom/client";
 const rootDiv = document.getElementById("root");   
 
 ReactDom.createRoot(rootDiv).render(
-  <div>
+  <div>  
     <h1>Hello React 5 </h1>    
     <h1>Hello React 10</h1> 
     <p>
