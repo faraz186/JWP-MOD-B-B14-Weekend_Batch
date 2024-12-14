@@ -10,7 +10,7 @@ ReactDom.createRoot(rootDiv).render(
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vitae error
       consequuntur quibusdam sint vero, provident maxime eius adipisci. Nemo
-      voluptate quasi suscipit iste cum officia eos accusamus eligendi sint
+      voluptate quasi suscipit iste cum officia eos accusamus eligendi sint  
       nisi, quis id error animi deleniti beatae unde. Quas enim officiis optio,
       similique
     </p>
