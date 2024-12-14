@@ -1,0 +1,15 @@
+React (JS Library of building user Interface)
+
+Facebook launch react in 2013 with class components but at v16, react 
+
+annouce to create functional components instead of class.
+
+1) SPA (Single Page Application)
+
+2) Virtual DOM
+
+3) Function Based Component
+
+4) Function vs Class Component
+
+5) Project run on local Server
