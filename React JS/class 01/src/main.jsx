@@ -1,6 +1,6 @@
 import React from "react";  
 import ReactDom from "react-dom/client";
-
+  
 const rootDiv = document.getElementById("root");   
 
 ReactDom.createRoot(rootDiv).render(
