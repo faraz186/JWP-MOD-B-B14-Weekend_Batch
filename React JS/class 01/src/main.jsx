@@ -31,5 +31,5 @@ ReactDom.createRoot(rootDiv).render(
       maiores excepturi culpa eaque unde.
     </p>
     <img src="/public/vite.svg" alt=""></img>
-  </div>
+  </div>  
 );
