@@ -5,7 +5,7 @@ const rootDiv = document.getElementById("root");
 
 ReactDom.createRoot(rootDiv).render(
   <div>
-    <h1>Hello React 5 </h1>  
+    <h1>Hello React 5 </h1>    
     <h1>Hello React 10</h1> 
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vitae error
