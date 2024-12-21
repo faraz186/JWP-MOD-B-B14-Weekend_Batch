@@ -6,7 +6,7 @@ export const Data = [
     title: "Title 01",  
     desc: "This is a sample Text 01",
   },
-  {      
+  {          
     id: "02",
     imgSrc:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXSTblEVkkdJh15jlAbC3FpvuzCKb1o-pQQA&s",
