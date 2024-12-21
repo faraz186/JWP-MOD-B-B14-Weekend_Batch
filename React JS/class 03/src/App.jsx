@@ -9,7 +9,7 @@ import user4 from "./assets/user4.png";
 import { Data } from "./data";
 
 const App = () => {
-  console.log(Data);
+  console.log(Data);   
 
   return (
     <>
