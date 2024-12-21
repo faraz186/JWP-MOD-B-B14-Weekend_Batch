@@ -3,7 +3,7 @@ export const Data = [
     id: "01",
     imgSrc:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnSA1zygA3rubv-VK0DrVcQ02Po79kJhXo_A&s",
-    title: "Title 01",
+    title: "Title 01",  
     desc: "This is a sample Text 01",
   },
   {
