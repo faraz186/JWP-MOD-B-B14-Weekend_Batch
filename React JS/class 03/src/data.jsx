@@ -1,4 +1,4 @@
-export const Data = [  
+export const Data = [    
   {
     id: "01",  
     imgSrc:
