@@ -4,7 +4,6 @@ import "./App.css";
 import { Data } from "./data";
 import Card from "./Components/Card/Card";  
 
-
 const App = () => {
   // let arr = ["faraz", "farooq", "hamza", "ali", "ahmed"] || [];
   // let arr = undefined || [];  
