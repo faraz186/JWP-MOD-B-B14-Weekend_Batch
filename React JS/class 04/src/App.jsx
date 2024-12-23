@@ -15,7 +15,7 @@ const App = () => {
       <h1>App </h1>  
 
       {Data ? (    
-        Data.map((e, i) => {
+        Data.map((e, i) => {  
           return (
             <Card
               key={e.id}
