@@ -2,7 +2,7 @@ import Button from "./Components/Button/Button";
 import Student from "./Components/Student/Student";      
 import "./App.css";      
 import { Data } from "./data";  
-import Card from "./Components/Card/Card";      
+import Card from "./Components/Card/Card";        
 
 const App = () => {  
   // let arr = ["faraz", "farooq", "hamza", "ali", "ahmed"] || [];  
