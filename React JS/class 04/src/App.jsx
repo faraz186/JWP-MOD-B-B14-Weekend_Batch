@@ -1,6 +1,6 @@
 import Button from "./Components/Button/Button";
 import Student from "./Components/Student/Student";
-import "./App.css";
+import "./App.css";  
 import { Data } from "./data";
 import Card from "./Components/Card/Card";  
 
