@@ -11,7 +11,7 @@ const App = () => {
   console.log(Data);
 
   return (  
-    <>
+    <>  
       <h1>App </h1>  
 
       {Data ? (  
