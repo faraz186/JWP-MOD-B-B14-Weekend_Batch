@@ -5,7 +5,9 @@ import { Data } from "./data";
 import Card from "./Components/Card/Card";        
 
 const App = () => {  
+  
   // let arr = ["faraz", "farooq", "hamza", "ali", "ahmed"] || [];  
+  
   // let arr = undefined || [];    
     
   console.log(Data);
@@ -14,6 +16,7 @@ const App = () => {
     <>  
       <h1>App </h1>  
 
+      
       {Data ? (    
         Data.map((e, i) => {  
           return (
@@ -30,18 +33,30 @@ const App = () => {
         <h1>Data not fetch</h1>
       )}
 
-      {/* <Card
+      
+
+      {/* Card Render in Browser */}
+      
+      <Card
         id={1}
         imgSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnSA1zygA3rubv-VK0DrVcQ02Po79kJhXo_A&s"
         title="title 01"
         desc="desc 01"
-      /> */}
+      />
 
-      {/* <select>
+
+      
+
+      {/* Data in dropdown in Browser */}
+
+
+      
+      <select>
         {arr.map((element, index) => {
           return <option>{element}</option>;
         })}
-      </select> */}
+      </select>
+      
     </>
   );
 };
