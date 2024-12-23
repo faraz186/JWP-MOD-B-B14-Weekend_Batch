@@ -6,7 +6,7 @@ import Card from "./Components/Card/Card";
 
 const App = () => {
   // let arr = ["faraz", "farooq", "hamza", "ali", "ahmed"] || [];
-  // let arr = undefined || [];  
+  // let arr = undefined || [];    
 
   console.log(Data);
 
