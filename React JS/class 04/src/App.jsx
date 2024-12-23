@@ -19,7 +19,7 @@ const App = () => {
           return (
             <Card
               key={e.id}
-              id={e.id}
+              id={e.id}  
               imgSrc={e.imgSrc}
               title={e.title}
               desc={e.desc}
