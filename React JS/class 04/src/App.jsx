@@ -14,7 +14,7 @@ const App = () => {
     <>  
       <h1>App </h1>  
 
-      {Data ? (  
+      {Data ? (    
         Data.map((e, i) => {
           return (
             <Card
