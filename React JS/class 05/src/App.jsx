@@ -1,4 +1,4 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";  
 import Button from "react-bootstrap/Button";
 import Header from "./Components/Navbar/Navbar";  
 import Data from "./data";
