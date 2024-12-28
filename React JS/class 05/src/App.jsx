@@ -7,7 +7,7 @@ import { IoLogoGoogle } from "react-icons/io5";
 import TextField from "@mui/material/TextField";
 
 const App = () => {
-  console.log(Data);
+  console.log(Data);  
    
   return (
     <>
