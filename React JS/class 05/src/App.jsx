@@ -12,7 +12,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <h3>App Component</h3>
+      <h3>App Component</h3>  
       <TextField id="outlined-basic" label="Outlined" variant="outlined" />  
       <br />
       <br />
