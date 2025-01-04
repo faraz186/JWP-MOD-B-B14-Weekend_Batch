@@ -14,7 +14,7 @@ import { useDemoRouter } from "@toolpad/core/internal";
   
 const NAVIGATION = [
   {  
-    kind: "header",
+    kind: "header",  
     title: "Main items",
   },
   {
