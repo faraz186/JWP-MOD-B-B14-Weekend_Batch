@@ -124,7 +124,6 @@ function DashboardLayoutBasic(props) {
 }
 
 DashboardLayoutBasic.propTypes = {
-
   window: PropTypes.func,
 };
 
