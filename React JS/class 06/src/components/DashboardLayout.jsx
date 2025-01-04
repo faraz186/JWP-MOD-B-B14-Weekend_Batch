@@ -1,7 +1,7 @@
 import * as React from "react";  
 import PropTypes from "prop-types";  
 import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
+import Typography from "@mui/material/Typography";  
 import { createTheme } from "@mui/material/styles";
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
