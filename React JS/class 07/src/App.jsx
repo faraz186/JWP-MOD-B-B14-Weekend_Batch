@@ -48,7 +48,7 @@ const App = () => {
         <img src={bulbOn} width={250} height={280} alt="" />
       ) : (
         <img src={bulbOff} width={250} height={280} alt="" />
-      )}
+      )}  
 
       <button
         onClick={() => {
