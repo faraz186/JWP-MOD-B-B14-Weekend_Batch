@@ -133,6 +133,8 @@ const App = () => {
 
       <button onClick={changeName}>Change Value</button>
 
+      {/* Input Value get in console */}
+      
       <input
         onChange={(event) => {
           console.log(event.target.value);
