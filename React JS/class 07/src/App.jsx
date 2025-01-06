@@ -13,7 +13,7 @@ const App = () => {
 
   let [counter, setCounter] = useState(0);
 
-  const Inc = () => {
+  const Inc = () => {  
     setCounter(++counter);
   };
 
