@@ -18,7 +18,7 @@ const App = () => {
   };
 
   const Dec = () => {
-    setCounter(counter <= 0 ? 0 : --counter);
+    setCounter(counter <= 0 ? 0 : --counter);  
   };
 
   const updateName = () => {
