@@ -7,7 +7,7 @@ import Signup from "./components/Signup";
 const App = () => {
   const [isloggedIn, setIsLoggedIn] = useState(false);
 
-  const [bulb, setBulb] = useState(false);
+  const [bulb, setBulb] = useState(false);  
 
   const [username, usernameFunc] = useState("faraz");  
 
