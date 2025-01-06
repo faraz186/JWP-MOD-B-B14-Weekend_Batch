@@ -73,6 +73,8 @@ const App = () => {
         OFF
       </button>
 
+    {/* Loggedin user message  */}
+
       {isloggedIn ? (
         <>
           <h1>Welcome User!!</h1>
