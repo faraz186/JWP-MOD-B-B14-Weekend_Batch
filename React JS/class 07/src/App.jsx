@@ -14,7 +14,7 @@ const App = () => {
   let [counter, setCounter] = useState(0);
 
   const Inc = () => {  
-    setCounter(++counter);
+    setCounter(++counter);  
   };
 
   const Dec = () => {
