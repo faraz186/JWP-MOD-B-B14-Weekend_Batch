@@ -3,7 +3,7 @@ import bulbOn from "./assets/bulbOn.jfif";
 import bulbOff from "./assets/bulbOff.jfif";    
 import Login from "./components/Login";  
 import Signup from "./components/Signup";    
-
+  
 const App = () => {
   const [isloggedIn, setIsLoggedIn] = useState(false);
 
