@@ -78,7 +78,7 @@ const App = () => {
       {isloggedIn ? (
         <>
           <h1>Welcome User!!</h1>
-          <h2>Dashboard Screen</h2>
+          <h2>Dashboard Screen</h2>  
           <h3>Status: Client</h3>
         </>
       ) : (
