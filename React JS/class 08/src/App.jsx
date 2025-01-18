@@ -4,7 +4,7 @@ import Home from "./Screens/Home";
 import About from "./Screens/About";        
 import User from "./Screens/User";        
 import { Route, Routes } from "react-router-dom";    
-import Navbar from "./components/Navbar/Navbar";    
+import Navbar from "./components/Navbar/Navbar";      
 import "./App.css";     
     
 const App = () => {
