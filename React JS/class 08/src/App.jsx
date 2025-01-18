@@ -5,7 +5,7 @@ import About from "./Screens/About";
 import User from "./Screens/User";        
 import { Route, Routes } from "react-router-dom";    
 import Navbar from "./components/Navbar/Navbar";        
-import "./App.css";         
+import "./App.css";           
     
 const App = () => {
   return (  
