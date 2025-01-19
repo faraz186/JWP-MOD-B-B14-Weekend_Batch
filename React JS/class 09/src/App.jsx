@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Screens/Home";
 import About from "./Screens/About";    
-import User from "./Screens/User";
+import User from "./Screens/User";  
 import Registration_form from "./Screens/Registration_form";    
 import NotFound from "./Screens/NotFound";    
 
