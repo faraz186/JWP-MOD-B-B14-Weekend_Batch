@@ -19,7 +19,7 @@ const App = () => {
         <Route path="/form" element={<Registration_form />} />
         <Route path="*" element={<NotFound />} />
 
-        {/* Dynamic Routing */}
+        {/* Dynamic Routing */}  
 
         {/* 1) dynamic params */}
 
