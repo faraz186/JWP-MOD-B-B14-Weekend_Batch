@@ -10,22 +10,24 @@ const App = () => {
   return (
     <>
       <Routes>
+        
         {/* Basic Routing */}
+        
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
-        {/* <Route path="/user" element={<User />} /> */}
+        <Route path="/user" element={<User />} />
         <Route path="/form" element={<Registration_form />} />
         <Route path="*" element={<NotFound />} />
 
         {/* Dynamic Routing */}
 
-        {/* dynamic params */}
+        {/* 1) dynamic params */}
 
-        {/* <Route path="/user/:id" element={<User />} /> */}
+        <Route path="/user/:id" element={<User />} />
 
-        {/* query params */}
+        {/* 2) query params */}
 
-        {/* <Route path="/user" element={<User />} /> */}
+        <Route path="/user" element={<User />} />
 
         {/* Nested Routing */}
 
