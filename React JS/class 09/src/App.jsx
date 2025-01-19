@@ -16,7 +16,7 @@ const App = () => {
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/user" element={<User />} />
-        <Route path="/form" element={<Registration_form />} />
+        <Route path="/form" element={<Registration_form />} />  
         <Route path="*" element={<NotFound />} />
 
         {/* Dynamic Routing */}  
