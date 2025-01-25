@@ -17,7 +17,7 @@ const App = () => {
     <div>
       <Input />  
       <Button />
-      <h1>Welcome {2 + 4 + 10}</h1>
+      <h1>Welcome {2 + 4 + 10}</h1>  
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
         perspiciatis consequatur consectetur nihil sapiente excepturi, molestiae
