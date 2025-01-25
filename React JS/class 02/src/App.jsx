@@ -1,6 +1,6 @@
 import { Button } from "./components/Button";
 import Input from "./components/Input";
-import "./App.css";
+import "./App.css";  
 
 const App = () => {
   let username = "faraz";
