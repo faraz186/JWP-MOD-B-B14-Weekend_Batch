@@ -6,7 +6,7 @@ import Profile from "./Screens/Profile";
 import Contact from "./Screens/Contact";
 import Settings from "./Screens/Settings";
 import UserDetails from "./Screens/UserDetails";
-
+ 
 const App = () => {
   return (
     <>
