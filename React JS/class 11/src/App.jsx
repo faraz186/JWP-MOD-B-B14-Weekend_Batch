@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";        
+import { Route, Routes } from "react-router-dom";         
 import Home from "./Screens/Home";  
 import Dashboard from "./Screens/Dashboard";  
 import Profile from "./Screens/Profile";
