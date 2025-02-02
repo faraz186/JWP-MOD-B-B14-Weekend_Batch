@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";                  
 import Home from "./Screens/Home";  
 import Create from "./Screens/Create";
-import Update from "./Screens/Update";
+import Update from "./Screens/Update"; 
 import Delete from "./Screens/Delete"; 
 import SignUp from "./Screens/SignUp";
 import Login from "./Screens/Login";
