@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";            
+import { Route, Routes } from "react-router-dom";             
 import SignUp from "./Screens/SignUp";
 import Login from "./Screens/Login";
 import Dashboard from "./Screens/Dashboard";
