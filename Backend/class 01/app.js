@@ -5,7 +5,6 @@ const app = express();
 const PORT = 6000;
 
 
-
 app.get("/user", (request, response) => {
   response.send({
     name: "faraz",
