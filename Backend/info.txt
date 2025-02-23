@@ -1,0 +1,12 @@
+JS  (Both Client and Server Side Scripting language)
+
+frontEnd
+backEnd
+Database
+
+
+Nodejs  	 ===> Runtime Environment
+Expressjs   ===> Nodejs Framework
+MongoDB ===> No SQL Database
+
+
