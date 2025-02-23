@@ -8,7 +8,7 @@ const PORT = 6000;
 app.get("/user", (request, response) => {
   response.send({
     name: "faraz",
-    age: 24,
+    age: 24,  
     city: "karachi",
   });
 });
