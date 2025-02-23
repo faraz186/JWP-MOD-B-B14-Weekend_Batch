@@ -14,11 +14,9 @@ app.get("/user", (request, response) => {
 });
 
 
-
 app.get("/", (request, response) => {
   response.send("Server Running on /");
 });
-
 
 
 // Create server with expressjs
