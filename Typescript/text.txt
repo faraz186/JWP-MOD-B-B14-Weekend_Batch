@@ -1,0 +1,1 @@
+TypeScript is an open-source programming language developed and maintained by Microsoft. It is a superset of JavaScript, meaning it includes all of JavaScript's features and adds an optional static type system. This allows developers to define the types of data being used in their code, which helps catch errors during development rather than at runtime.
