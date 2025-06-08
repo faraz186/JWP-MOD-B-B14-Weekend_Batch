@@ -1,5 +1,5 @@
 console.log('typescript session start...')
-  
+   
 let num: number | string | boolean = 10;
 
 num = 100;
