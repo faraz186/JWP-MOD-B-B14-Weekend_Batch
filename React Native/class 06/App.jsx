@@ -1,4 +1,4 @@
-import {Text, View} from 'react-native';
+import {Text, View} from 'react-native'; 
 import Stack_Navigation from './config/Stack_Navigation';                       
 import Tab_Navigation from './config/Tab_Navigation';
 import Async_Storage from './Screens/Async_Storage';
