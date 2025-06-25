@@ -12,7 +12,7 @@ let arr:(number | string | boolean)[] = [1,2,3,4,5,6,7,8,9,10];
 
 arr.push(false)
 
-console.log(arr);
+console.log(arr); 
 
 function getNum(a:number,b:number):void
 {
