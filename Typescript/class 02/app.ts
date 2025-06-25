@@ -1,6 +1,6 @@
 // type casting
    
-let number:number = 100;
+let number:number = 100; 
 
 number = 500; 
  
