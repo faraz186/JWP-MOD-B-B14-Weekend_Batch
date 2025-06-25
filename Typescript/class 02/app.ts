@@ -3,7 +3,7 @@
 let number:number = 100; 
 
 number = 500;  
- 
+  
 console.log(number); 
 
 
