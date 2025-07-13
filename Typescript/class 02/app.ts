@@ -1,5 +1,5 @@
 // type casting
-           
+            
 let number:number = 100;  
 
 number = 500;  
