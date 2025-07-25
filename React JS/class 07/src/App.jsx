@@ -9,7 +9,7 @@ const App = () => {
 
   const [bulb, setBulb] = useState(false);  
 
-  const [username, usernameFunc] = useState("faraz");     
+  const [username, usernameFunc] = useState("faraz");      
 
   let [counter, setCounter] = useState(0);
 
